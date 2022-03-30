@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./asset/bootstrap.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="card w-75 mx-auto">
+                <div class="card-tital text-center">
+                    <h1 class="mt-3">This Age Calculator</h1>
+                </div>
+                <div class="card-body">
+                <div class="form-group">
+                    <input id="namee" type="text" placeholder="Name" class="form-control">
+                </div>
+                <div class="form-group mt-2">
+                    <input id="age" type="text" placeholder="Age" class="form-control">
+                </div>
+                <div class="form-group mt-2">
+                    <input id="age_check" type="submit" placeholder="Name" class="form-control btn-block btn-primary" value="Check">
+                </div>
+                </div>
+                <div class="card-footer">
+                    <p id="output"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- form  -->
+
+<div class="container py-5">
+    <div class="row">
+        <div class="col">
+            <div class="card w-75 mx-auto">
+            <div class="card-title">
+                <h1 class="text-center mt-3">User From</h1>
+            </div>
+        <div class="card-body">
+            <form id="signup_from" action="">
+                <div class="form-group">
+                    <div class="msg"></div>
+                <input id="name" type="text" class="form-control" placeholder="Name">
+            </div>
+                <div class="form-group">
+                    <input id="email" type="text" class="form-control mt-2" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <input id="user_name" type="text" class="form-control mt-2" placeholder="User-Name">
+                </div>
+                <div class="from-group">
+                    <input id="submit_button" type="submit" class="form-control mt-2 btn-block btn-dark" value="Sign Up">
+                </div>
+                    </form>
+                </div>
+                <div class="card-footer">
+                    <div class="output"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <script src="./asset/bootstrap.min.js"></script>
+    <script src="./function.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
